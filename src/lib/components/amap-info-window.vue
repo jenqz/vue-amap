@@ -84,6 +84,7 @@ export default {
   },
   methods: {
     __initComponent(options) {
+      console.log('test 1234')
       if (this.$slots.default && this.$slots.default.length) {
         options.content = this.tmpVM.$refs.node;
       }
